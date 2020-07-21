@@ -1,0 +1,21 @@
+.toolbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #698eb8;
+  color: #f7f1e3;
+  font-weight: 600;
+}
+
+.toolbar .title {
+  text-transform: uppercase;
+}
+
+.content {
+  margin: 80px 100px auto;
+  color: #3a6596;
+}
