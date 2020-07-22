@@ -17,6 +17,10 @@ const routes: Routes = [
   {
     path: 'shapes',
     loadChildren: () => import('./components/shapes/shapes.module').then(m => m.ShapesModule)
+  },
+  {
+    path: 'canvas-example',
+    loadChildren: () => import('./components/canvas-example/canvas-example.module').then(m => m.CanvasExampleModule)
   }
 ];
 
